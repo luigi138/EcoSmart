@@ -12,6 +12,8 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.60" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.0.0" />
+       <ProjectReference Include="..\EcoSmart.Core\EcoSmart.Core.csproj" />
+    <ProjectReference Include="..\EcoSmart.Domain\EcoSmart.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

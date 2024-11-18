@@ -1792,6 +1792,7 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "EcoSmart.Core >= 1.0.0",
+      "EcoSmart.Domain >= 1.0.0",
       "EcoSmart.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Oracle.EntityFrameworkCore >= 8.23.60",
@@ -1828,6 +1829,9 @@
           "projectReferences": {
             "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
               "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj"
+            },
+            "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+              "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
             },
             "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj"
