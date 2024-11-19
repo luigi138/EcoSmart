@@ -1,5 +1,7 @@
 using EcoSmart.Core.DTOs;
 using EcoSmart.Core.Interfaces;
+using EcoSmart.Core.Exceptions;
+using EcoSmart.Domain.Enums;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcoSmart.API.Controllers
@@ -19,9 +21,6 @@ namespace EcoSmart.API.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Obtém um dispositivo pelo ID
-        /// </summary>
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(DeviceDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -31,20 +30,17 @@ namespace EcoSmart.API.Controllers
             {
                 var device = await _deviceService.GetByIdAsync(id);
                 if (device == null)
-                    return NotFound($"Dispositivo com ID {id} não encontrado.");
+                    return NotFound($"Device with ID {id} not found.");
 
                 return Ok(device);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Erro ao buscar dispositivo: {Id}", id);
-                return StatusCode(500, "Erro interno ao processar a requisição.");
+                _logger.LogError(ex, "Error retrieving device: {Id}", id);
+                return StatusCode(500, "Internal server error");
             }
         }
 
-        /// <summary>
-        /// Obtém todos os dispositivos de um usuário
-        /// </summary>
         [HttpGet("user/{userId}")]
         [ProducesResponseType(typeof(IEnumerable<DeviceDto>), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<DeviceDto>>> GetUserDevices(Guid userId)
@@ -56,14 +52,11 @@ namespace EcoSmart.API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Erro ao buscar dispositivos do usuário: {UserId}", userId);
-                return StatusCode(500, "Erro interno ao processar a requisição.");
+                _logger.LogError(ex, "Error retrieving user devices: {UserId}", userId);
+                return StatusCode(500, "Internal server error");
             }
         }
 
-        /// <summary>
-        /// Registra um novo dispositivo
-        /// </summary>
         [HttpPost]
         [ProducesResponseType(typeof(DeviceDto), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -83,14 +76,11 @@ namespace EcoSmart.API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Erro ao criar dispositivo");
-                return StatusCode(500, "Erro interno ao processar a requisição.");
+                _logger.LogError(ex, "Error creating device");
+                return StatusCode(500, "Internal server error");
             }
         }
 
-        /// <summary>
-        /// Atualiza o status de um dispositivo
-        /// </summary>
         [HttpPut("{id}/status")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -109,8 +99,8 @@ namespace EcoSmart.API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Erro ao atualizar status do dispositivo: {Id}", id);
-                return StatusCode(500, "Erro interno ao processar a requisição.");
+                _logger.LogError(ex, "Error updating device status: {Id}", id);
+                return StatusCode(500, "Internal server error");
             }
         }
     }
