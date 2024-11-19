@@ -19,7 +19,7 @@ namespace EcoSmart.Infrastructure.Repositories
             _logger = logger;
         }
 
-        public async Task<EnergyConsumption> GetByIdAsync(Guid id)
+        public async Task<EnergyConsumption?> GetByIdAsync(Guid id)
         {
             try
             {

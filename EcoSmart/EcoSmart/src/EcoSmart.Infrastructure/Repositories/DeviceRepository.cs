@@ -19,11 +19,12 @@ namespace EcoSmart.Infrastructure.Repositories
             _logger = logger;
         }
 
-        public async Task<Device> GetByIdAsync(string id)
+        public async Task<Device?> GetByIdAsync(string id)
         {
             try
             {
-                return await _context.Devices.FindAsync(id);
+                var device = await _context.Devices.FindAsync(id);
+                return device;
             }
             catch (Exception ex)
             {

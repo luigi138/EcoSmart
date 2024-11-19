@@ -10,8 +10,8 @@ namespace EcoSmart.Infrastructure.Data
         {
         }
 
-        public DbSet<Device> Devices { get; set; }
-        public DbSet<EnergyConsumption> EnergyConsumptions { get; set; }
+        public DbSet<Device> Devices => Set<Device>();
+        public DbSet<EnergyConsumption> EnergyConsumptions => Set<EnergyConsumption>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +25,8 @@ namespace EcoSmart.Infrastructure.Data
                 entity.Property(e => e.Status).IsRequired();
                 entity.Property(e => e.LastUpdated).IsRequired();
                 entity.Property(e => e.UserId).IsRequired();
+
+                entity.HasIndex(e => e.UserId);
             });
 
             modelBuilder.Entity<EnergyConsumption>(entity =>
