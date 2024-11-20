@@ -20,8 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EcoSmart.Core\EcoSmart.Core.csproj" />
+    <!-- 只引用 EcoSmart.Infrastructure 和 EcoSmart.Domain -->
     <ProjectReference Include="..\EcoSmart.Infrastructure\EcoSmart.Infrastructure.csproj" />
+    <ProjectReference Include="..\EcoSmart.Domain\EcoSmart.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,16 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- EF Core 版本 -->
+    <!-- EF Core 和日志库 -->
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.3" />
-    <!-- 日志库 -->
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <!-- 引用 Domain 项目 -->
+    <!-- 引用 EcoSmart.Domain -->
     <ProjectReference Include="..\EcoSmart.Domain\EcoSmart.Domain.csproj" />
+    <!-- 引用 EcoSmart.Core -->
+    <ProjectReference Include="..\EcoSmart.Core\EcoSmart.Core.csproj" />
   </ItemGroup>
 
 </Project>

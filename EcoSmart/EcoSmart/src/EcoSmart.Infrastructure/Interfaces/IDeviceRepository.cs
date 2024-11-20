@@ -1,5 +1,4 @@
 using EcoSmart.Domain.Entities;
-using EcoSmart.Infrastructure.Interfaces; 
 
 
 namespace EcoSmart.Infrastructure.Interfaces

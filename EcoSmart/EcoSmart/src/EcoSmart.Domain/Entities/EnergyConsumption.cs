@@ -1,20 +1,22 @@
+using System;
 using EcoSmart.Domain.Enums;
 
 namespace EcoSmart.Domain.Entities
 {
     public class EnergyConsumption
     {
-        public Guid Id { get; private set; }
-        public string DeviceId { get; private set; } = string.Empty;
-        public double Amount { get; private set; }
-        public DateTime Timestamp { get; private set; }
-        public ConsumptionType Type { get; private set; }
+        public Guid Id { get; set; }
+        public Guid DeviceId { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime Timestamp { get; set; }
+        public string Type { get; set; }
 
         private EnergyConsumption() 
         {
             Id = Guid.NewGuid();
-            DeviceId = string.Empty;
+            DeviceId = Guid.Empty;
             Timestamp = DateTime.UtcNow;
+            Type = string.Empty;
         }
 
         public static EnergyConsumption Create(string deviceId, double amount, ConsumptionType type)
@@ -28,9 +30,9 @@ namespace EcoSmart.Domain.Entities
             return new EnergyConsumption
             {
                 Id = Guid.NewGuid(),
-                DeviceId = deviceId,
-                Amount = amount,
-                Type = type,
+                DeviceId = Guid.Parse(deviceId),  // 转换为 Guid 类型
+                Amount = (decimal)amount,  // 转换为 decimal 类型
+                Type = type.ToString(),
                 Timestamp = DateTime.UtcNow
             };
         }
