@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoSmart.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6964d69ffc6ba30a6fe40ee97bbd3e50c42642bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f15d75881bbc696024151c9a7fe32b6c2620198")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoSmart.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoSmart.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

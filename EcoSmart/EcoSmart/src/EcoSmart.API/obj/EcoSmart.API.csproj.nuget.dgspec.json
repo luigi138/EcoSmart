@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.60, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -269,6 +273,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
+                "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj"
+              },
               "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
                 "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
               }
@@ -290,6 +297,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[9.0.0, )"

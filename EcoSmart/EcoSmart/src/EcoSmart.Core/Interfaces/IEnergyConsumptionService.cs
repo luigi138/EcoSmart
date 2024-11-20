@@ -9,5 +9,10 @@ namespace EcoSmart.Core.Interfaces
             string deviceId,
             DateTime? startDate = null,
             DateTime? endDate = null);
+
+             Task<decimal> GetTotalConsumptionAsync();
+    Task<decimal> GetSavingsPercentageAsync();
+    Task<decimal> GetMonthlyGoalAsync();
     }
+    
 }
