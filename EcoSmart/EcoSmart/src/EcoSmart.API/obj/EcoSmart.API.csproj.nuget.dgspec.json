@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj": {}
+    "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj": {
+    "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj",
+        "projectUniqueName": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj",
         "projectName": "EcoSmart.API",
-        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj",
+        "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\EcoSmart.API.csproj",
         "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\obj\\",
+        "outputPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,14 +29,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
-                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj"
+              "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
+                "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj"
               },
-              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
-                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
+              "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+                "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
               },
-              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj"
+              "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj": {
+                "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj"
               }
             }
           }
@@ -68,19 +68,13 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Oracle.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.23.60, )"
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -110,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
+    "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
+        "projectUniqueName": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
         "projectName": "EcoSmart.Core",
-        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
+        "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
         "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\obj\\",
+        "outputPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
-                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
+              "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+                "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
               }
             }
           }
@@ -189,14 +183,14 @@
         }
       }
     },
-    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+    "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
+        "projectUniqueName": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
         "projectName": "EcoSmart.Domain",
-        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
+        "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
         "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\obj\\",
+        "outputPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -250,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj": {
+    "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj",
+        "projectUniqueName": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj",
         "projectName": "EcoSmart.Infrastructure",
-        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj",
+        "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\obj\\",
+        "outputPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -275,8 +269,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
-                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
+              "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+                "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
               }
             }
           }
@@ -296,20 +290,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[9.0.0, )"

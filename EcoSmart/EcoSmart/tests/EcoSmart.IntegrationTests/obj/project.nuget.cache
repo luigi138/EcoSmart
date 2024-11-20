@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cqkugcmqtac=",
+  "dgSpecHash": "C9gbX0z5n0M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\EcoSmart.IntegrationTests.csproj",
+  "projectFilePath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\EcoSmart.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nimap\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\nimap\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

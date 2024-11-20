@@ -1,0 +1,12 @@
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\bin\Debug\net8.0\EcoSmart.Domain.deps.json
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\bin\Debug\net8.0\EcoSmart.Domain.dll
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\bin\Debug\net8.0\EcoSmart.Domain.pdb
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.AssemblyInfoInputs.cache
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.AssemblyInfo.cs
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.csproj.CoreCompileInputs.cache
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.sourcelink.json
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.dll
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\refint\EcoSmart.Domain.dll
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.pdb
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\ref\EcoSmart.Domain.dll

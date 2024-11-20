@@ -1,0 +1,6 @@
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.csproj.AssemblyReference.cache
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.AssemblyInfoInputs.cache
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.AssemblyInfo.cs
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.csproj.CoreCompileInputs.cache
+D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.sourcelink.json

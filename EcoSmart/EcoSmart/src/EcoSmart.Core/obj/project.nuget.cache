@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zum7slxi+/o=",
+  "dgSpecHash": "CRjrhn3ZR0s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
+  "projectFilePath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nimap\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nimap\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

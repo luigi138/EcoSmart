@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bhPLgBzAvcs=",
+  "dgSpecHash": "716+B/30Lkc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\EcoSmart.UnitTests.csproj",
+  "projectFilePath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\EcoSmart.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nimap\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\nimap\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
