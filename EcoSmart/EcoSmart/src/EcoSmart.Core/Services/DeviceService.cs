@@ -2,7 +2,13 @@ using AutoMapper;
 using EcoSmart.Core.DTOs;
 using EcoSmart.Core.Interfaces;
 using EcoSmart.Domain.Entities;
+using EcoSmart.Domain.Enums;
 using EcoSmart.Infrastructure.Interfaces;
+using Microsoft.Extensions.Logging;
+using EcoSmart.Core.Exceptions;
+
+
+
 
 namespace EcoSmart.Core.Services
 {
@@ -61,11 +67,27 @@ namespace EcoSmart.Core.Services
             await _deviceRepository.UpdateAsync(device);
         }
 
+        public async Task<int> GetActiveDeviceCountAsync()
+        {
+            return await _deviceRepository.GetActiveDeviceCountAsync();
+        }
+
+        public async Task<int> GetTotalDeviceCountAsync()
+        {
+            return await _deviceRepository.GetTotalDeviceCountAsync();
+        }
+
+        public async Task<IEnumerable<DeviceDto>> GetAllDevicesAsync()
+        {
+            var devices = await _deviceRepository.GetAllDevicesAsync();
+            return _mapper.Map<IEnumerable<DeviceDto>>(devices);
+        }
+
         private void ValidateCreateRequest(CreateDeviceRequest request)
         {
             if (string.IsNullOrWhiteSpace(request.Name))
                 throw new ValidationException("Device name is required");
-            
+
             if (string.IsNullOrWhiteSpace(request.Location))
                 throw new ValidationException("Device location is required");
         }

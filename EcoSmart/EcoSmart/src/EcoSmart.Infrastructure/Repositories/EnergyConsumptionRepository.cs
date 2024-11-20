@@ -1,75 +1,61 @@
 using EcoSmart.Domain.Entities;
-using EcoSmart.Infrastructure.Data;
 using EcoSmart.Infrastructure.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+using EcoSmart.Infrastructure.Data;
 
 namespace EcoSmart.Infrastructure.Repositories
 {
     public class EnergyConsumptionRepository : IEnergyConsumptionRepository
     {
-        private readonly EcoSmartDbContext _context;
-        private readonly ILogger<EnergyConsumptionRepository> _logger;
+        private readonly AppDbContext _context;
 
-        public EnergyConsumptionRepository(
-            EcoSmartDbContext context,
-            ILogger<EnergyConsumptionRepository> logger)
+        public EnergyConsumptionRepository(AppDbContext context)
         {
             _context = context;
-            _logger = logger;
         }
 
-        public async Task<EnergyConsumption?> GetByIdAsync(Guid id)
+        public async Task AdicionarAsync(EnergyConsumption consumo)
         {
-            try
-            {
-                return await _context.EnergyConsumptions.FindAsync(id);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error retrieving consumption with ID: {Id}", id);
-                throw;
-            }
+            await _context.Consumptions.AddAsync(consumo);
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<EnergyConsumption>> GetByDeviceIdAsync(
-            string deviceId,
-            DateTime? startDate = null,
-            DateTime? endDate = null)
+        public async Task<IEnumerable<EnergyConsumption>> ObterPorDeviceIdAsync(
+            string deviceId, DateTime? dataInicio = null, DateTime? dataFim = null)
         {
-            try
+            var query = _context.Consumptions.AsQueryable();
+
+            if (!string.IsNullOrEmpty(deviceId))
             {
-                var query = _context.EnergyConsumptions
-                    .Where(e => e.DeviceId == deviceId);
-
-                if (startDate.HasValue)
-                    query = query.Where(e => e.Timestamp >= startDate.Value);
-
-                if (endDate.HasValue)
-                    query = query.Where(e => e.Timestamp <= endDate.Value);
-
-                return await query.OrderByDescending(e => e.Timestamp).ToListAsync();
+                query = query.Where(c => c.DeviceId == deviceId);
             }
-            catch (Exception ex)
+
+            if (dataInicio.HasValue)
             {
-                _logger.LogError(ex, "Error retrieving consumptions for device: {DeviceId}", deviceId);
-                throw;
+                query = query.Where(c => c.Data >= dataInicio.Value);
             }
+
+            if (dataFim.HasValue)
+            {
+                query = query.Where(c => c.Data <= dataFim.Value);
+            }
+
+            return await query.ToListAsync();
         }
 
-        public async Task<EnergyConsumption> AddAsync(EnergyConsumption consumption)
+        public async Task<decimal> ObterConsumoTotalAsync()
         {
-            try
-            {
-                await _context.EnergyConsumptions.AddAsync(consumption);
-                await _context.SaveChangesAsync();
-                return consumption;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error adding consumption record: {Id}", consumption.Id);
-                throw;
-            }
+            return await _context.Consumptions.SumAsync(c => c.Amount);
+        }
+
+        public async Task<decimal> ObterPercentualEconomiaAsync()
+        {
+            return 10m;
+        }
+
+        public async Task<decimal> ObterMetaMensalAsync()
+        {
+    
+            return 1000m;
         }
     }
 }

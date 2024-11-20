@@ -4,11 +4,12 @@ namespace EcoSmart.Infrastructure.Interfaces
 {
     public interface IEnergyConsumptionRepository
     {
-        Task<EnergyConsumption?> GetByIdAsync(Guid id);
-        Task<IEnumerable<EnergyConsumption>> GetByDeviceIdAsync(
-            string deviceId,
-            DateTime? startDate = null,
-            DateTime? endDate = null);
-        Task<EnergyConsumption> AddAsync(EnergyConsumption consumption);
+        Task AdicionarAsync(EnergyConsumption consumo);
+        Task<IEnumerable<EnergyConsumption>> ObterPorDeviceIdAsync(
+            string deviceId, DateTime? dataInicio = null, DateTime? dataFim = null);
+
+        Task<decimal> ObterConsumoTotalAsync();
+        Task<decimal> ObterPercentualEconomiaAsync();
+        Task<decimal> ObterMetaMensalAsync();
     }
 }

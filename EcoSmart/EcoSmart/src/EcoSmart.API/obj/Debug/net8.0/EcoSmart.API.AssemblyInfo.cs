@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoSmart.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f15d75881bbc696024151c9a7fe32b6c2620198")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f609ea2b6790ebeae792bcef9372200af1eaeb1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoSmart.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoSmart.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,3 +4,9 @@ D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmar
 D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.AssemblyInfo.cs
 D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.csproj.CoreCompileInputs.cache
 D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.sourcelink.json
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.csproj.AssemblyReference.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.AssemblyInfoInputs.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.AssemblyInfo.cs
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.csproj.CoreCompileInputs.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Core\obj\Debug\net8.0\EcoSmart.Core.sourcelink.json

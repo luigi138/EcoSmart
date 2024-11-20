@@ -5780,11 +5780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\EcoSmart.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\EcoSmart.UnitTests.csproj",
       "projectName": "EcoSmart.UnitTests",
-      "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\EcoSmart.UnitTests.csproj",
+      "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\EcoSmart.UnitTests.csproj",
       "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-      "outputPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",

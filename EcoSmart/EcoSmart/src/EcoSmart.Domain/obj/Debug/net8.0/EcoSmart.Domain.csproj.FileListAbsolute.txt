@@ -10,3 +10,16 @@ D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSm
 D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\refint\EcoSmart.Domain.dll
 D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.pdb
 D:\GlobalS\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\ref\EcoSmart.Domain.dll
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\bin\Debug\net8.0\EcoSmart.Domain.deps.json
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\bin\Debug\net8.0\EcoSmart.Domain.dll
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\bin\Debug\net8.0\EcoSmart.Domain.pdb
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.csproj.AssemblyReference.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.AssemblyInfoInputs.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.AssemblyInfo.cs
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.sourcelink.json
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.dll
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\refint\EcoSmart.Domain.dll
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\EcoSmart.Domain.pdb
+C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.Domain\obj\Debug\net8.0\ref\EcoSmart.Domain.dll

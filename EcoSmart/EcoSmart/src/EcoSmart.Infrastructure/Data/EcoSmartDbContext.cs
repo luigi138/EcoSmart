@@ -1,21 +1,25 @@
-using EcoSmart.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using EcoSmart.Domain.Entities;
 
 namespace EcoSmart.Infrastructure.Data
 {
     public class EcoSmartDbContext : DbContext
     {
+        // DbSe
+        public DbSet<Device> Devices { get; set; }
+        public DbSet<EnergyConsumption> EnergyConsumptions { get; set; }
+
+        // 构造函数
         public EcoSmartDbContext(DbContextOptions<EcoSmartDbContext> options)
             : base(options)
         {
+            Devices = Set<Device>();
+            EnergyConsumptions = Set<EnergyConsumption>();
         }
-
-        public DbSet<Device> Devices => Set<Device>();
-        public DbSet<EnergyConsumption> EnergyConsumptions => Set<EnergyConsumption>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<Device>(entity =>
             {
                 entity.ToTable("DEVICES");
@@ -26,7 +30,6 @@ namespace EcoSmart.Infrastructure.Data
                 entity.Property(e => e.Status).IsRequired();
                 entity.Property(e => e.LastUpdated).IsRequired();
                 entity.Property(e => e.UserId).IsRequired();
-
                 entity.HasIndex(e => e.UserId);
             });
 
@@ -38,7 +41,6 @@ namespace EcoSmart.Infrastructure.Data
                 entity.Property(e => e.Amount).IsRequired();
                 entity.Property(e => e.Timestamp).IsRequired();
                 entity.Property(e => e.Type).IsRequired();
-                
                 entity.HasIndex(e => e.DeviceId);
                 entity.HasIndex(e => e.Timestamp);
             });

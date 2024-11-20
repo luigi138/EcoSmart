@@ -5513,11 +5513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\EcoSmart.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\EcoSmart.IntegrationTests.csproj",
       "projectName": "EcoSmart.IntegrationTests",
-      "projectPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\EcoSmart.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\EcoSmart.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-      "outputPath": "D:\\GlobalS\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\tests\\EcoSmart.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
