@@ -4,14 +4,14 @@
     "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Infrastructure\\EcoSmart.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
+    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
-        "projectName": "EcoSmart.Core",
-        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
+        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
+        "projectName": "EcoSmart.Abstractions",
+        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
         "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\obj\\",
+        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,20 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -179,8 +165,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
-                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj"
+              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj"
               },
               "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
                 "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
