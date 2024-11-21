@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
+        "projectName": "EcoSmart.Abstractions",
+        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
+        "projectName": "EcoSmart.Core",
+        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\EcoSmart.Core.csproj",
+        "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj"
+              },
+              "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+                "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
+        "projectName": "EcoSmart.Domain",
+        "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
+        "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

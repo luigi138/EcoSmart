@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8TJzx2aWdsE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nimap\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.3\\microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

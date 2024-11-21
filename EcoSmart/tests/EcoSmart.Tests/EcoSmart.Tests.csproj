@@ -1,0 +1,21 @@
+
+<Project Sdk="Microsoft.NET.Test.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- xUnit and Moq packages for testing -->
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageReference Include="Moq" Version="4.18.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Reference the Core and Infrastructure projects -->
+    <ProjectReference Include="../src/EcoSmart.Core/EcoSmart.Core.csproj" />
+    <ProjectReference Include="../src/EcoSmart.Infrastructure/EcoSmart.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
