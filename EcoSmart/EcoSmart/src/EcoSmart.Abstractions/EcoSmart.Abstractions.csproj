@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 添加对 Domain 项目的引用 -->
+    <ProjectReference Include="..\EcoSmart.Domain\EcoSmart.Domain.csproj" />
+  </ItemGroup>
+</Project>

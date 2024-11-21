@@ -19,10 +19,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <!-- 只引用 EcoSmart.Infrastructure 和 EcoSmart.Domain -->
-    <ProjectReference Include="..\EcoSmart.Infrastructure\EcoSmart.Infrastructure.csproj" />
-    <ProjectReference Include="..\EcoSmart.Domain\EcoSmart.Domain.csproj" />
-  </ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\EcoSmart.Infrastructure\EcoSmart.Infrastructure.csproj" />
+  <ProjectReference Include="..\EcoSmart.Abstractions\EcoSmart.Abstractions.csproj" />
+  <ProjectReference Include="..\EcoSmart.Domain\EcoSmart.Domain.csproj" />
+</ItemGroup>
+
 
 </Project>
