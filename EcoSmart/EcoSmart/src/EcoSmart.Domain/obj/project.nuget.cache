@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "drYGst5HJII=",
+  "dgSpecHash": "/dhcxMI6ka0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
+  "projectFilePath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart_final_fixed_cleaned\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nimap\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\nimap\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",

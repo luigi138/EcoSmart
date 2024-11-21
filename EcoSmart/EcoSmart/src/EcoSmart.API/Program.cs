@@ -4,63 +4,79 @@ using EcoSmart.Infrastructure.Data;
 using EcoSmart.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using EcoSmart.Infrastructure.Interfaces;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adiciona serviços ao contêiner
-builder.Services.AddControllersWithViews(); // Habilita MVC
-builder.Services.AddEndpointsApiExplorer(); // Habilita suporte a endpoints para APIs
+// 添加服务到容器
+builder.Services.AddControllersWithViews(); // 启用 MVC 模式
+builder.Services.AddEndpointsApiExplorer(); // 启用 API 终结点
 
-// Configurações do Swagger para documentação da API
+// 配置 Swagger 用于 API 文档
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo 
-    { 
-        Title = "EcoSmart API", 
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "EcoSmart API",
         Version = "v1",
-        Description = "API para monitoramento de consumo energético"
+        Description = "API 用于能源消耗的监控和管理"
     });
 });
 
-// Configuração do banco de dados (Oracle)
+// 配置 Oracle 数据库连接
 builder.Services.AddDbContext<EcoSmartDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Registro de repositórios no contêiner de injeção de dependências (DI)
+// 配置依赖注入
 builder.Services.AddScoped<IDeviceRepository, DeviceRepository>();
 builder.Services.AddScoped<IEnergyConsumptionRepository, EnergyConsumptionRepository>();
-
-// Registro de serviços no contêiner de injeção de dependências (DI)
 builder.Services.AddScoped<IDeviceService, DeviceService>();
 builder.Services.AddScoped<IEnergyConsumptionService, EnergyConsumptionService>();
 
-// Configuração do AutoMapper
+// 配置 AutoMapper
 builder.Services.AddAutoMapper(cfg =>
 {
-    cfg.AddMaps(typeof(DeviceService).Assembly); // Escaneia mapeamentos no assembly
+    cfg.AddMaps(typeof(DeviceService).Assembly); // 扫描映射
 });
 
-// Construção do aplicativo
+// 构建应用程序
 var app = builder.Build();
 
-// Configuração de middleware de acordo com o ambiente
-if (app.Environment.IsDevelopment())
+// 测试数据库连接
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger(); // Habilita Swagger
-    app.UseSwaggerUI(c => 
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcoSmart API v1"));
+    var dbContext = scope.ServiceProvider.GetRequiredService<EcoSmartDbContext>();
+    try
+    {
+        dbContext.Database.CanConnect();
+        Console.WriteLine("Database connection successful.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Database connection failed: {ex.Message}");
+    }
 }
 
-// Middleware padrão
-app.UseHttpsRedirection(); // Força redirecionamento para HTTPS
-app.UseStaticFiles();      // Habilita arquivos estáticos (CSS, JS, etc.)
-app.UseRouting();          // Habilita roteamento
-app.UseAuthorization();    // Middleware de autorização
+// 配置中间件和环境依赖
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger(); // 启用 Swagger
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcoSmart API v1");
+    });
+}
 
-// Configuração de rotas
+// 启用标准中间件
+app.UseHttpsRedirection(); // 强制 HTTPS
+app.UseStaticFiles();      // 提供静态文件支持
+app.UseRouting();          // 启用路由
+app.UseAuthorization();    // 启用授权
+
+// 配置默认路由
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// Executa o aplicativo
+// 启动应用
 app.Run();

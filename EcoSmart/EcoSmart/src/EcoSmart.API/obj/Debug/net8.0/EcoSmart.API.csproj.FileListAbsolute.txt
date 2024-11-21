@@ -8,3 +8,13 @@ C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.
 C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.RazorAssemblyInfo.cache
 C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.RazorAssemblyInfo.cs
 C:\Users\nimap\OneDrive\附件\EcoSmart\EcoSmart\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.sourcelink.json
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.csproj.AssemblyReference.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.AssemblyInfoInputs.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.AssemblyInfo.cs
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.csproj.CoreCompileInputs.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.RazorAssemblyInfo.cache
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.RazorAssemblyInfo.cs
+C:\Users\nimap\OneDrive\附件\EcoSmart_final_fixed_cleaned\EcoSmart\EcoSmart\src\EcoSmart.API\obj\Debug\net8.0\EcoSmart.API.sourcelink.json

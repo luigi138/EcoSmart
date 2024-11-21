@@ -256,11 +256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
+      "projectUniqueName": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart_final_fixed_cleaned\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
       "projectName": "EcoSmart.Abstractions",
-      "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
+      "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart_final_fixed_cleaned\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\EcoSmart.Abstractions.csproj",
       "packagesPath": "C:\\Users\\nimap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\obj\\",
+      "outputPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart_final_fixed_cleaned\\EcoSmart\\EcoSmart\\src\\EcoSmart.Abstractions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -278,8 +278,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
-              "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart\\EcoSmart\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
+            "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart_final_fixed_cleaned\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj": {
+              "projectPath": "C:\\Users\\nimap\\OneDrive\\附件\\EcoSmart_final_fixed_cleaned\\EcoSmart\\EcoSmart\\src\\EcoSmart.Domain\\EcoSmart.Domain.csproj"
             }
           }
         }

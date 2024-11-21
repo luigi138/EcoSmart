@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoSmart.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd0057e8e695dc3c1eb3ff98d38192d51b96660f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2495a417bc44c85e915425c7fab12a90262cdc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoSmart.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoSmart.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
